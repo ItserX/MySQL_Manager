@@ -7,4 +7,3 @@
 
 Проверка работы с mysql базой данной локально.
 1. sudo docker run -p 3306:3306 -v $(pwd)/mysql-init:/docker-entrypoint-initdb.d -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=golang -d mysql
-2. sudo docker exec -it f5195c842c38 mysql -u root -p
